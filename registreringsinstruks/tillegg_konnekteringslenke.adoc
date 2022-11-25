@@ -1,8 +1,16 @@
-=== Prinsipp for registrering av _konnekteringslenke_
+=== Prinsipp for registrering av konnekteringslenke
 
-Benyttes for å knytte sammen veglenkene over åpne plasser, f.eks. ulike typer tun og parkeringsplasser. I FKB-TraktorvegSti benyttes normalt ikke konnekteringslenke på korte lenker i forbindelse med kryss etc. (jf. FKB-Elveg 2.0), men egenskapen kan benyttes for å hekte traktorveg eller sti inn på vegnettet i Elveg 2.0 der traktorvegen eller stien ender i/langs veg.
-Egenskapens standardverdi er NEI (dvs. at egenskapen bare er nødvendig å angi dersom veglenka er konnekteringslenke).
-Konnekteringslenker skal registreres og ajourføres fotogrammetrisk.
+Veglenker i FKB-TraktorvegSti skal registreres sammenhengende over åpne plasser internt i datasettet og i overganger mellom FKB-TraktorvegSti og Elveg 2.0. Egenskapen konnekteringslenke ja brukes for å angi at veglenken beskriver opplagte forbindelser over åpne plasser. Hensikten med egenskapen er å legge til rette for god teknisk sammenheng i datasettet samtidig med mulighet for bortfiltrering av disse lenkene ved uttegning i karttjenester.
+Konnekteringslenker skal registreres og ajourføres fotogrammetrisk etter følgende prinsipper:
+
+1)	Veglenker i FKB-TraktorvegSti skal registreres sammenhengende over åpne plasser internt i datasettet og i overganger mellom FKB-TraktorvegSti og Elveg 2.0
+
+2)	Konnekteringslenke ja skal angis når veglenke beskriver trase over åpen plass som er kartlagt med OBJTYPE AnnetVegarealAvgrensning i FKB-Veg (Figur 1 og Figur 2). 
+
+3)	Eksisterende veglenker med konnekteringslenke ja skal bare slettes dersom veglenka den skaper forbindelse til også slettes
+
+4)	Eksisterende veglenker med konnekteringslenke ja skal geometriforbedres dersom tilstøtende veglenker geometriforbedres
+
 
 Betingelse: Egenskapen skal angis for veglenker som er konnekteringslenker
 
@@ -11,6 +19,3 @@ image::figurer/konnekteringslenke.png[]
 
 .Eksempel på bruk av konnekteringslenke over gardstun i FKB-TraktorvegSti. Konnekteringslenker skal registreres fotogrammetrisk.
 image::figurer/konnekteringslenke2.png[]
-
-.Eksempel på bruk av konnekteringslenke over tun i FKB-TraktorvegSti. Konnekteringslenker skal registreres fotogrammetrisk.
-image::figurer/konnekteringslenke3.png[]
