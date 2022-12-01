@@ -24,7 +24,7 @@ endif::[]
 //- {reginstr-url}/{reginstr-type}_registreringsinstruks_{datasett}_{versjon}_{underversjon}.pdf[PDF-dokument] +
 *Tilhørende produktspesifikasjon finnes på*: {prodspek-url}/{versjon} +
 - {prodspek-url}/{versjon}[HTML-dokument] +
-- {prodspek-url}/{versjon}/Produktspesifikasjon_{datasett}_50.pdf[PDF-dokument] +
+- {prodspek-url}/{versjon}/{datasett}_{versjon}.pdf[PDF-dokument] +
 - {uml-url}[HTML-visning av UML-modellen] +
 
 https://kartverket.no/geodataarbeid/geovekst[Geovekst-samarbeidet] er eier og faglig ansvarlig for spesifikasjonen.
