@@ -5,7 +5,7 @@ Konnekteringslenker skal registreres og ajourføres fotogrammetrisk etter følge
 
 1)	Veglenker i FKB-TraktorvegSti skal registreres sammenhengende over åpne plasser internt i datasettet og i overganger mellom FKB-TraktorvegSti og Elveg 2.0
 
-2)	Konnekteringslenke ja skal angis når veglenke beskriver trase over åpen plass som er kartlagt med OBJTYPE AnnetVegarealAvgrensning i FKB-Veg (se eksempler under).
+2)	Konnekteringslenke ja skal angis når veglenke beskriver trase over åpen plass som er kartlagt med OBJTYPE AnnetVegarealAvgrensning i FKB-Veg (se bildeeksempler under).
 
 3)	Eksisterende veglenker med konnekteringslenke ja skal bare slettes dersom veglenka den skaper forbindelse til også slettes
 
@@ -22,10 +22,10 @@ Konnekteringslenker registreres kun ved nyregistrering eller endring på eksiste
 Under følger noen bildeeksempler som viser hvordan konnekteringslenker skal registreres i TraktorvegSti når traktorveg eller sti skal knyttes sammen mot veglenker i Elveg.
 
 .Eksempel på bruk av konnekteringslenke over gardstun i FKB-TraktorvegSti. Konnekteringslenker skal registreres fotogrammetrisk.
-image::figurer/konnekteringslenke.png[]
+image::figurer/konnekteringslenke.png[alt="Bilde av konnekteringslenker"]
 
 .Eksempel på bruk av konnekteringslenke over gardstun i FKB-TraktorvegSti. Konnekteringslenker skal registreres fotogrammetrisk.
-image::figurer/konnekteringslenke2.png[]
+image::figurer/konnekteringslenke2.png[alt="Bilde av konnekteringslenker"]
 
 .Et eksempel på feil (til venstre) og riktig (til høyre) registrering av en konnekteringslenke over åpent areal (avgrenset med AnnetVegarealAvgrensning) for å knytte sammen Typeveg enkel og Typeveg traktorveg. Konnekteringslenken skal følge rutens naturlige forløp og usikkert forløp oppgis gjennom kvalitetskodingen.
 image::figurer/Konnekteringslenke1_TrvegSti.png[alt="Bilde av konnekteringslenker"]
