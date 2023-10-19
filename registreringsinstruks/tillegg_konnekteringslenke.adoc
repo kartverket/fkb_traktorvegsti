@@ -28,19 +28,19 @@ image::figurer/konnekteringslenke.png[]
 image::figurer/konnekteringslenke2.png[]
 
 .Et eksempel på feil (til venstre) og riktig (til høyre) registrering av en konnekteringslenke over åpent areal (avgrenset med AnnetVegarealAvgrensning) for å knytte sammen Typeveg enkel og Typeveg traktorveg. Konnekteringslenken skal følge rutens naturlige forløp og usikkert forløp oppgis gjennom kvalitetskodingen.
-image::figurer_2023/Konnekteringslenke1_TrvegSti.png[alt="Bilde av konnekteringslenker"]
+image::figurer/Konnekteringslenke1_TrvegSti.png[alt="Bilde av konnekteringslenker"]
 
 .Et eksempel på hvordan en konnekteringslenke knytter sammen Typeveg enkel og Typeveg traktorveg med et naturlig forløp over "åpent areal" sammen med AnnetVegarealAvgrensning.
-image::figurer_2023/Konnekteringslenke2_TrvegSti.png[alt="Bilde av konnekteringslenker"]
+image::figurer/Konnekteringslenke2_TrvegSti.png[alt="Bilde av konnekteringslenker"]
 
 .Et eksempel på hvordan to konnekteringslenker knytter sammen Typeveg enkel og Typeveg traktorveg med et naturlig forløp over åpent areal.
-image::figurer_2023/Konnekteringslenke3_TrvegSti.png[alt="Bilde av konnekteringslenker"]
+image::figurer/Konnekteringslenke3_TrvegSti.png[alt="Bilde av konnekteringslenker"]
 
 .Et eksempel på hvordan en konnekteringslenke knytter sammen Typeveg enkel og Typeveg traktorveg med et naturlig forløp over åpent areal.
-image::figurer_2023/Konnekteringslenke4_TrvegSti.png[alt="Bilde av konnekteringslenker"]
+image::figurer/Konnekteringslenke4_TrvegSti.png[alt="Bilde av konnekteringslenker"]
 
 Vi viser også til noen eksempler der det IKKE skal etableres konnekteringslenke. Det er typisk der det ikke er åpne arealer mellom lenkene eller fysiske hindringer (for eksempel grøfter) som gjør ferdsel mellom veglenkene unaturlig eller umulig.
 
 .Tre eksempler der det IKKE skal etableres konnekteringslenker. Til venstre er det ikke naturlig/logisk å ha konnekteringslenke mellom sti til høyre og veg (mer naturlig mellom sti til venstre og veg). I midten er det en veggrøft/skråning mellom sti og veg. Til høyre er det ikke naturlig/logisk med konnekteringslenke grunnet grus/steinhaug mellom traktorveg (under bygging?) og veg. I alle eksemplene mangler vi også åpne plasser eller AnnetVegarealAvgrensning i bildene.
-image::figurer_2023/Konnekteringslenke5_TrvegSti.png[alt="Bilde av konnekteringslenker"]
+image::figurer/Konnekteringslenke5_TrvegSti.png[alt="Bilde av konnekteringslenker"]
 
