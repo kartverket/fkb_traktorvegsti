@@ -217,7 +217,7 @@ Merknad: Veglenker skal knyttes sammen i nodepunkter (knutepunkter).
 |[0..1]
  
 |kommunenummer
-| «CodeList»  https://register.geonorge.no/sosi-kodelister/kommunenummer-alle[Kommunenummer, window = _blank]
+| «CodeList»  https://register.geonorge.no/sosi-kodelister/inndelinger/inndelingsbase/kommunenummer[Kommunenummer, window = _blank]
 |..KOMM
 |[0..1]
  
