@@ -451,6 +451,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel3">
 <li><a href="#_endringer_fra_versjon_5_0_2023_01_01_til_versjon_5_0_2024_01_01">1.2.1. Endringer fra versjon 5.0 2023-01-01 til versjon 5.0 2024-01-01:</a></li>
 <li><a href="#_endringer_fra_versjon_5_0_2022_01_01_til_versjon_5_0_2023_01_01">1.2.2. Endringer fra versjon 5.0 2022-01-01 til versjon 5.0 2023-01-01:</a></li>
+<li><a href="#_endringer_fra_versjon_4_6_2016_06_01_til_versjon_5_0_2022_01_01">1.2.3. Endringer fra versjon 4.6 2016-06-01 til versjon 5.0 2022-01-01:</a></li>
 </ul>
 </li>
 </ul>
@@ -575,6 +576,46 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li>
 <p>Figur 7 i kapittel 5.1 er slettet.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_endringer_fra_versjon_4_6_2016_06_01_til_versjon_5_0_2022_01_01">1.2.3. Endringer fra versjon 4.6 2016-06-01 til versjon 5.0 2022-01-01:</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Oppdatert generelle konsepter fra FKB 5.0 generell del.</p>
+</li>
+<li>
+<p>Justert generell tekst for blant annet kap. 7, 8 og 9.</p>
+</li>
+<li>
+<p>Typeveg gangveg, fortau, gangfelt og trapp er fjernet fra FKB-TraktorvegSti da de innføres i Elveg 2.0 og Nasjonal vegdatabank (NVDB).</p>
+</li>
+<li>
+<p>Ny typeveg stitrapp innført.</p>
+</li>
+<li>
+<p>Definisjoner for typeveg traktorveg og sti er revidert.</p>
+</li>
+<li>
+<p>Datatype Vegsystemreferanse med datterobjekter innført for å harmonisere med produkspesifikasjon for Elveg 2.0</p>
+</li>
+<li>
+<p>Innført ny opsjonelle egenskaper: beredskapsveg og serviceveg.</p>
+</li>
+<li>
+<p>Vegsperring: innført nye egenskaper FunksjonVegsperring (linket opp mot samme kodeliste i FKB-Veg), GjelderTidsrom og EierVegsperring for å samsvare med Elveg 2.0.</p>
+</li>
+<li>
+<p>Innført egenskapene turruterPeker og eksternPeker for å gjøre det mulig å legge inn referanser (i form av URI-er) til de tilsvarende objektene forvaltet i andre systemer.</p>
+</li>
+<li>
+<p>Navn og definisjoner i kodelistene er sjekket og harmonisert mot NVDB.</p>
+</li>
+<li>
+<p>Kodelister er revidert og flyttet ut av produktspesifikasjon og forvaltes eksternt i Geonorge.</p>
 </li>
 </ul>
 </div>
@@ -871,10 +912,13 @@ bygninger som deles av avgrensningspolygonet</p>
 <p>Veglenke er en felles objekttype for alle veglenker (senterlinjer) i et vegnett. Egenskapen typeveg beskriver hva slags veglenke det er. I FKB-TraktorvegSti er aktuelle verdier for typeveg Traktorveg, Sti og stitrapp.  Se n&#230;rmere beskrivelse av av <em>typeVeg</em> under.</p>
 </div>
 <div class="paragraph">
-<p>Senterlinjeobjekter i dette datasettet skal ikke ligge n&#230;rmere hverandre enn 2 m uten at de henger sammen, eventuelt med konnekteringslenke.</p>
+<p>Veglenker skal knyttes sammen i nodepunkter (knutepunkter). Senterlinjeobjekter i dette datasettet skal ikke ligge n&#230;rmere hverandre enn 2 m uten at de henger sammen, eventuelt med konnekteringslenke.</p>
 </div>
 <div class="paragraph">
-<p>Merknad: Veglenker skal knyttes sammen i nodepunkter (knutepunkter).</p>
+<p>Som beskrevet i kap.3.4 i FKB-Veg og kap.3.2 i Elveg gjelder konsekvensretting i FKB-Veg ogs&#229; for endringer av veglenker i TraktorvegSti:</p>
+</div>
+<div class="paragraph">
+<p>Enhver endring av geometri og egenskap typeveg i Elveg eller FKB-TraktorvegSti skal f&#248;lges opp med konsekvensretting av vegkanter og flater i FKB-Veg. Det er alltid senterlinjegeometri i Elveg og FKB-TraktorvegSti som skal v&#230;re f&#248;rende for innhold og koding av vegkanter og vegflater i FKB-Veg, ikke omvendt.</p>
 </div>
 <h4 id="_føringer" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -1121,7 +1165,7 @@ bygninger som deles av avgrensningspolygonet</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">kommunenummer</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">«CodeList»  <a href="https://register.geonorge.no/sosi-kodelister/kommunenummer-alle" target="_blank" rel="noopener">Kommunenummer</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">«CodeList»  <a href="https://register.geonorge.no/sosi-kodelister/inndelinger/inndelingsbase/kommunenummer" target="_blank" rel="noopener">Kommunenummer</a></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">..KOMM</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[0..1]</p></td>
 </tr>
@@ -1903,7 +1947,7 @@ av denne lisensen og ikke kan viderebrukes</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-11-03 12:06:37 +0100
+Last updated 2023-11-08 09:25:31 +0100
 </div>
 </div>
 </body>
