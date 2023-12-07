@@ -6,6 +6,6 @@ Datamodellering gjøres i EA. Asciidoc-filer eksporteres ut fra UML-modell og sy
 
 Ferdig dokumentasjon (HTML ++) genereres fra dette repoet vha. asciidoctor
 
-HTML-visning av produktspesifikasjon: https://htmlpreview.github.io/?https://github.com/kartverket/prodspek_fkb_traktorvegtti/blob/master/produktspesifikasjon/index.html
+HTML-visning av produktspesifikasjon: https://htmlpreview.github.io/?https://github.com/kartverket/prodspek_fkb_traktorvegsti/blob/master/produktspesifikasjon/index.html
 
 HTML-visning av registreringsinstruks: https://htmlpreview.github.io/?https://github.com/kartverket/prodspek_fkb_traktorvegsti/blob/master/registreringsinstruks/index.html
